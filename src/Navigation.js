@@ -70,7 +70,6 @@ function Navigation(props) {
               <button
                 className="btn btn-outline-dark"
                 type="button"
-                id="navbarDropdown"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
@@ -84,6 +83,7 @@ function Navigation(props) {
                 <li className="text-center">
                   <button
                     className=" btn btn-outline-danger"
+                    type="button"
                     onClick={props.handleReset}
                   >
                     Remove All
