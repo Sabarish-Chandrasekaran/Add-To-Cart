@@ -19,7 +19,7 @@ function App() {
     cardData[index].cart = false;
     if (count > 0) setCounter(count - 1);
   };
-  const handleReset = (e) => {
+  const handleReset = () => {
     for (var i = 0; i < cardData.length; i++) {
       cardData[i].cart = false;
     }

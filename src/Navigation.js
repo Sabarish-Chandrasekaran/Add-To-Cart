@@ -80,7 +80,7 @@ function Navigation(props) {
                   {props.count}
                 </span>
               </button>
-              <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+              <ul className="dropdown-menu">
                 <li className="text-center">
                   <button
                     className=" btn btn-outline-danger"
