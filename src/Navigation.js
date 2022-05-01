@@ -71,7 +71,6 @@ function Navigation(props) {
                 className="btn btn-outline-dark"
                 type="button"
                 data-bs-toggle="dropdown"
-                aria-expanded="false"
               >
                 <i className="bi-cart-fill me-1"></i>
                 Cart
